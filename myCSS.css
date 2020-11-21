@@ -1,0 +1,146 @@
+html, body{
+            height:100%;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+
+        .headerSet{
+            font-family:'Montserrat', sans-serif;
+            font-weight:bold;
+            letter-spacing: 0.2em;
+        }
+        .headerBlock{
+            background-color: #2d3436;
+            background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+            background-attachment: fixed;
+            background-size:cover;
+            height:15vh;
+        }
+
+        .footerBlock{
+            background-color: #2d3436;
+            background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+            background-attachment: fixed;
+            background-size:cover;
+            height:50vh;
+            color:white;
+            font-size:30px;
+        }
+
+        .footerBlock p{
+            letter-spacing: 0.15em;
+        }
+        
+
+        .aboutMe{
+            background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('backimg.jpg');
+            background-position : center;
+            background-attachment: fixed;
+            background-size:cover;
+            letter-spacing: 0.15em;
+        }
+        .row{
+            padding:100px 150px;
+            font-size:22px;
+        }
+
+        .progress {
+            border-radius : 16px  !important;
+            margin-bottom : 10px;
+        }
+        .progress-bar {
+             border-radius : 16px;
+        }
+        .skills-bar p {
+            margin-bottom : 6px;
+            font-size:12px;
+        }
+
+        .nav-bar{
+            top : 0;
+            position : sticky;
+            z-index : 2;
+        }
+
+        .navbar {
+            background-color: #2d3436;
+            background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+            font-size: 12px;
+        }
+
+        .navbar-brand img {
+            height : 50px
+        }
+
+        .navbar .fa-bars{
+            font-size : 35px;
+            color : #fff;
+        }
+
+        .navbar-toggle{
+            outline : none !important;
+        }
+
+        .navbar-nav{
+            float : right;
+            text-align : right;
+        }
+
+        .nav-link{
+            color : #fff !important;
+        }
+
+        .timeline {
+            list-style-type : none;
+            position : relative;
+        }
+
+        .timeline:before {
+            content : '';
+            background : #000;
+            display : inline-block;
+            position : absolute;
+            left : 29px;
+            width: 2px;
+            height : 100%;
+            z-index : 1;
+        }
+
+        .timeline li {
+            margin-top : 20px;
+            margin-bottom : 20px;
+            margin-left : 20px;
+            color: #b3b3b3;
+        }
+
+        .timeline li h4{
+            background-color : #000;
+            padding : 5px 0 5px 20;
+            color : #b3b3b3;
+            font-size : 20px;
+            
+        }
+
+        .timeline li h4 span{
+            font-weight : bold;
+            color : #b3b3b3;
+        }
+
+        .timeline li:before{
+            content : '';
+            background:#fff;
+            display : inline-block;
+            position: absolute;
+            border-radius : 50%;
+            border : 3px solid #100;
+            left : 20px;
+            width : 20px;
+            height : 20px;
+            z-index : 1;
+        }
+        
+        .content{
+            color: #b3b3b3;
+            line-height:2em;
+        }
